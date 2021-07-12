@@ -51,9 +51,20 @@
 .popover {
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
+    border-radius: 4px;
     display: none;
+    position: relative;
 }
 div:hover > .popover {
     display: block;
     cursor: pointer;
+}
+.popover, .popover ul {
+    list-style-type: none;
+}
+.locations:hover > .popover {
+    display: block;
+}
+.amenities:hover > .popover {
+    display: block;
 }
