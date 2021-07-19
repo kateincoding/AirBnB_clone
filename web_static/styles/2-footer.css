@@ -3,7 +3,8 @@ footer {
     height: 60px;
     width: 100%;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+    display: flex;
 }
 footer p {
     text-align: center;
