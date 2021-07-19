@@ -20,7 +20,7 @@
     right: 30px;
     top: 15%;
     position: absolute;
-}
+} 
 
 .filters button:hover {
     opacity: 90%;
@@ -38,7 +38,6 @@
     border-right: 1px solid #DDDDDD;
 }
 .locations h3, .amenities h3{
-    top: 15%;
     font-weight: 600;
     margin: 2px 20px;
 }
@@ -48,23 +47,40 @@
     font-size: 14px;
     margin: 2px 20px;
 }
+
 .popover {
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: none;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    margin-top: 0;
 }
+
 div:hover > .popover {
     display: block;
     cursor: pointer;
 }
+
 .popover, .popover ul {
     list-style-type: none;
 }
+
+.popover h2 {
+    font-size: 16px;
+}
+
+.popover li {
+    margin: 10px 0px 5px 0px; 
+    list-style: none;
+}
+
 .locations:hover > .popover {
     display: block;
 }
+
 .amenities:hover > .popover {
     display: block;
 }
