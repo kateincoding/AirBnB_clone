@@ -5,6 +5,8 @@ footer {
     bottom: 0;
     position: fixed;
     display: flex;
+    flex-direction: center;
+    align-items: center;
 }
 footer p {
     text-align: center;
