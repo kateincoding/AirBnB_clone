@@ -2,7 +2,7 @@
 
 ![airbnb_img](https://i.imgur.com/symULZt.png)
 
-[MVP web static](https://kateincoding.github.io/AirBnB_clone/)
+[click here to see the web static mvp](https://kateincoding.github.io/AirBnB_clone/)
 
 The AirBnB clone project starts now until… the end of the first year. The goal of the project is to deploy on your server a simple copy of the AirBnB website.
 After 4 months, you will have a complete web application composed by:
